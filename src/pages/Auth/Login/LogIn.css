@@ -1,0 +1,28 @@
+.login{
+    font-family: "Popping",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/L43ZqhYp/Group-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+
+}
+.loginform{
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    height: 65vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.loginform h1{
+    font-weight: 400;
+}
+.loginform p{
+    font-size: 1rem;
+    opacity: 90%;
+}

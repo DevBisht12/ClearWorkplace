@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #ffff;
+}
+/* a{
+    text-decoration: none;
+    color: black;
+} */
+/* button{
+    background-color: black !important;
+    color: white !important;
+} */
+/* a:hover{
+    color: white;
+} */

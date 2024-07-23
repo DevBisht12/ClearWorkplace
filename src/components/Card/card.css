@@ -1,0 +1,79 @@
+.user_details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+}
+.Employee_info{
+    margin-left: 1.5rem;
+}
+.Employee_info p{
+    font-size: 1rem;
+    opacity: 80%;
+}
+.Employee_info span{
+    font-size: 1rem;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+}
+.employee_profile_header_sec{
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+
+}
+
+.Cover_photo{
+    /* border: 2px solid red; */
+    height: 25vh;
+    overflow: hidden;
+
+}
+.Cover_photo img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+.profile_photo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5rem;
+    left: 0.5rem;
+}
+.profile_photo img{
+    height: 12vh;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.employee_profile_info_sec{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    /* margin-bottom: 1rem; */
+}
+.employee_profile_info_sec p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.employee_profile_info_sec svg{
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+}
+
+.userName_rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Review_Rating_sec{
+    padding: 1rem;
+}
+.Chip_Tag_sec{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}

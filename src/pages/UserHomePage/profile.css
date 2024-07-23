@@ -1,0 +1,260 @@
+.Profile{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Popping", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.profile_main {
+    padding: 1rem;
+}
+.myInfo_sec{
+    width: 24%;
+    /* height: 100vh; */
+    height: fit-content;
+    border-radius: 15px;
+    /* padding: 0 1.5rem; */
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 1rem;
+    justify-content: space-evenly;
+    /* background-color: white; */
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.cover_img_sec img {
+    width: 100%;
+    height: 20vh;
+    background-color: #0B6BCB;
+    object-fit: cover;
+    overflow: hidden;
+}
+.user_header_sec{
+    position: relative;
+}
+
+.user_info_Card{
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0.4rem;
+}
+.Profile_user_info{
+    display: flex;
+    flex-direction: column;
+    height: 24vh;
+    justify-content: space-around;
+}
+.Profile_user_info h2{
+    font-size: 1rem;
+}
+.Profile_user_info p{
+    font-size: 0.813rem;
+    opacity: 80%;
+    line-height: 1.2rem;
+}
+.user_info_and_resume{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag_sec{
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.user_review{
+    display: flex;
+    height: 15vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #e8eaed;
+}
+.user_review p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.9rem;
+    opacity: 80%;
+    align-items: center;
+}
+
+.user_exprence_sec h2{
+    font-size: 0.9rem;
+    opacity: 80%;
+    margin: 1rem 0;
+}
+.company_info{
+    display: flex;
+}
+.experience_main{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.experience_main{
+    padding-bottom: 1rem;
+    display: flex;
+    /* border: 2px solid; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+/* -------------------______------------- */
+
+
+.jobs_sec{
+    display: flex;
+    width: 75%;
+    max-height: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    flex-direction: column;
+}
+.jobs_sec h1{
+    font-size: 1.3rem ;
+}
+
+.job_sec_main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 35vh;
+    /* background-color: #0b6bcb; */
+    border-radius: 15px;
+    margin: 1.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://i.postimg.cc/fTZ3t0Dt/Group-4-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.banner p{
+    font-size: 1rem;
+    opacity: 90%;
+}
+.resume_sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+}
+.resume_sec h2{
+    font-size: 0.9rem;
+    opacity: 80%;
+    margin-right: 3.5rem;
+}
+.resume_sec p{
+    font-size: 0.9rem;
+}
+/* .file-input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .file-input-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #0b6bcb;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 110%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-input-label:hover {
+    background-color: #185ea5;
+  }
+  
+  .file-input-label .fas {
+    font-size: 24px; 
+    color: #333;
+  } */
+  .resume_form svg{
+    font-size: 3rem;
+  }
+
+  .resume_form{
+    display: flex;
+    align-items: center;
+    border: 4px solid #e3e0e0;
+    height: 15rem;
+    width: 28rem;
+    border-style: dashed;
+    margin: 1rem;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+  }
+  .resume_sec form{
+    display: flex;
+    flex-direction: column;
+  }
+  .resume_form label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 70%;
+    position: absolute;
+    top: 37%;
+  }
+  .resume_form input {
+    opacity: 0;
+    height: 15rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.loader {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

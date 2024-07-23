@@ -1,0 +1,213 @@
+.Job_Page{
+    height: fit-content;
+    background-color: white;
+    font-family: "Popping",sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+}
+.search_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 90%;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    margin: 2rem;
+
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .search-bar__input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    border-right: 1px solid #ccc;
+  }
+  
+  .search-bar__input:last-child {
+    border-right: none;
+  }
+  
+  .search-bar__input i {
+    margin-right: 5px;
+  }
+  
+  .search-bar__input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+  .search-bar__button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .search-bar__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job_feed_sec {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.job_feed_sec h1{
+    margin-bottom: 1rem;
+}
+.job_feed_sec hr{
+    color: #ccc;
+    opacity: 40%;
+}
+
+
+/* -----------------------____________------------ */
+
+.Job_feed_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.job_Post_sec{
+    width: 48%;
+}
+
+.Job_details_section{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 100vh;
+    margin: 2rem 0;
+    position: sticky;
+    top: 1rem;
+    right: 6rem;
+    overflow: hidden;
+}
+.job_details_main {
+    height: 65vh;
+    overflow-y: scroll;
+    padding: 0 2rem;
+}
+.job_details_main svg{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+.Profile_insights_sec {
+    padding: 2rem 1rem;
+    /* height: 42%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    border-bottom: 1px solid #ccc;
+}
+.Profile_insights_sec h3{
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+.skill_sec{
+    display: flex;
+}
+.skill_chip_sec{
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    justify-content: space-between;
+}
+.skill_chip_main h4{
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+}
+.job_type_main h4{
+    font-size: 1rem;
+}
+.Job_details_sec{
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #cccc;
+}
+.Job_details_sec h3{
+    font-size: 1.2rem;
+}
+.pay_sec {
+    display: flex;
+    margin: 1rem 0;
+}
+.Job_Type_Sec {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.pay_main_sec {
+    display: flex;
+    height: 8vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job_type_main {
+    display: flex;
+    height: 8vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Location_sec{
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #cccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Location_sec h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.location_main_sec {
+    display: flex;
+}
+
+.Full_job_description_sec{
+    padding: 2rem 1rem;
+
+}
+.Full_job_description_sec h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.Full_job_description_sec p{
+    font-size: 1.063rem;
+    opacity: 90%;
+    line-height: 1.5rem;
+    padding-bottom: 0.8rem;
+}
+.Full_job_description_sec h5{
+    font-size: 1rem;
+    opacity: 90%;
+}
+.Full_job_description_sec ul{
+    padding-left: 1.5rem;
+}
+.Full_job_description_sec li{
+    font-size: 1.063rem;
+    opacity: 90%;
+    line-height: 1.5rem;
+    padding-bottom: 0.8rem;
+    list-style: circle;
+}

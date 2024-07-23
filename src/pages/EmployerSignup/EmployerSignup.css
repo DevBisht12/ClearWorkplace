@@ -1,0 +1,37 @@
+.EmployerSignupContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .EmployerSignUpForm_img_sec {
+    width: 50%;
+    background-image: url(https://i.postimg.cc/JzHn8bZy/Frame-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .EmployerSignupForm {
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    margin-left: 50%;
+    padding: 2rem;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .EmployerSignupForm form {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+  }
+  
